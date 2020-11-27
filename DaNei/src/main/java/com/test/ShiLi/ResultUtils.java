@@ -24,5 +24,18 @@ public class ResultUtils {
     public static void main(String[] args) {
         System.out.println(SUCCESS().toString());
         System.out.println(Fall());
+
+        JSONObject a =new JSONObject();
+        a.put("mchId","JY00010002");
+        a.put("mchTransNo","pf18234233d21131172a40");
+        a.put("amount","0.01");
+        a.put("payType","04");
+        a.put("desc","标题");
+        a.put("notifyUrl","http://112.74.115.152:39950/test");
+        a.put("returnUrl","http://www.pfokpay.com");
+        a.put("sign","D81ACED3E362EB9B247E9C79DC947D8F");
+        a.put("openid","opQ0l5jMjYLo7u-6zlYcKJtzxRkw");
+        a.put("is_web","1");
+        System.out.println(a.toString());
     }
 }

@@ -13,6 +13,6 @@ public class Stream {
         List<Integer> li= Arrays.asList(1,2,3,4,5,6);
 //        li.stream().forEach(System.out::println);
        ;
-        System.out.println(  li.stream().reduce(2,(a, b)->a*b));
+        System.out.println(  li.stream().reduce(10,(a, b)->a*b));
     }
 }
